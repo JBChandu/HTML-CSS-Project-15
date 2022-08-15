@@ -218,3 +218,92 @@ a.card-link {
   padding-left: 5%;
   height: 30px;
 }
+/* Media Queries */
+@media only screen and (max-width: 925px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+  }
+  .hero-content {
+    text-align: center;
+  }
+  .hero-btn {
+    margin-bottom: 3%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero-img {
+    height: 500;
+    width: 500;
+  }
+  ul.list-items {
+    font-size: 12px;
+  }
+  .product-btn {
+    margin-left: 160px;
+  }
+}
+@media only screen and (max-width: 698px) {
+  ul.list-items,
+  .select1,
+  .select2 {
+    font-size: 10px;
+  }
+  .product-btn {
+    margin-left: 140px;
+  }
+  .cards,
+  .count-section,
+  .count {
+    grid-template-columns: 1fr;
+  }
+  .hero-img {
+    height: 400px;
+    width: 400px;
+  }
+  .count {
+    margin-left: 5%;
+    margin-bottom: 10%;
+  }
+  .year-section {
+    margin-bottom: -3%;
+    margin-left: 17%;
+  }
+  .ad-section {
+    margin-bottom: 3%;
+  }
+  .hero-content h1 {
+    font-size: 28px;
+  }
+  .hero-content span {
+    font-size: 21px;
+  }
+  .hero-content p {
+    font-size: 12px;
+    padding-left: 2%;
+    padding-right: 4%;
+  }
+  .product-heading h1,
+  .contact-heading h1 {
+    font-size: 21px;
+  }
+  .product-btn,
+  .contact-btn {
+    font-size: 12px;
+    margin-left: 20%;
+  }
+  .contact-btn .btn {
+    font-size: 12px;
+  }
+  .list-item {
+    display: none;
+  }
+  .hero-img {
+    margin-left: -1%;
+  }
+}
+@media only screen and (max-width: 598px) {
+  .ad-section .cards,
+  .count {
+    margin-bottom: 20%;
+  }
+}
