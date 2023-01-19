@@ -17,6 +17,6 @@
 ### Time taken to complete this project:
 - It took 5-6 hour to complete.
 
-**Live Link :** Deployed Link](https://html-css-project-15.netlify.app/)
+**Live Link :** [Deployed Link](https://html-css-project-15.netlify.app/)
 >### Preview :
 ![Homepage screenshot](./public/ProductDesignLandingPage.png "Developer Landing Page")
